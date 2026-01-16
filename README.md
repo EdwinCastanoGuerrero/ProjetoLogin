@@ -1,4 +1,13 @@
+
+
 # TelaLogin
+
+
+<img width="1895" height="992" alt="image" src="https://github.com/user-attachments/assets/53e83789-8e86-409e-b437-97a1ff56b178" />
+
+<img width="1880" height="930" alt="image" src="https://github.com/user-attachments/assets/c16a88a8-645c-426d-8240-cdcf9d8ac503" />
+
+
 
 Este é um sistema de autenticação simples desenvolvido em PHP com suporte a cadastro, login e autenticação de usuários. O projeto utiliza o banco de dados MySQL para armazenar informações dos usuários e o PHPMailer para envio de e-mails de confirmação.
 
