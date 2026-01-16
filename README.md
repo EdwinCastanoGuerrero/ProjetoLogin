@@ -38,38 +38,6 @@ Este é um sistema de autenticação simples desenvolvido em PHP com suporte a c
 - **Banco de Dados:** MySQL.
 - **Composer:** Para gerenciar dependências (PHPMailer).
 
----
-
-## Configuração do Projeto
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/TelaLogin.git
-   ```
-
-2. **Configure o banco de dados:**
-   - Crie um banco de dados chamado `login`.
-   - Importe o arquivo `login.sql` para criar as tabelas necessárias.
-
-3. **Configure o arquivo de conexão:**
-   - Edite o arquivo `config/conexao.php` e atualize as credenciais do banco de dados:
-     ```php
-     $host = ;
-     $usuario = ";
-     $senha = ;
-     $banco = "login";
-     ```
-
-4. **Instale as dependências:**
-   - Execute o comando abaixo para instalar o PHPMailer:
-     ```bash
-     composer install
-     ```
-
-5. **Inicie o servidor:**
-   - Use o XAMPP ou outro servidor local para iniciar o projeto.
-
----
 
 ## Estrutura do Projeto
 
@@ -110,14 +78,6 @@ TelaLogin/
 4. **Logout:**
    - O token de sessão é destruído e o usuário é redirecionado para a tela de login.
 
----
-
-## Observações
-
-- Certifique-se de que o servidor de e-mail esteja configurado corretamente para o envio de e-mails em produção.
-- Para ambiente local, o envio de e-mails é desativado.
-
----
 
 ## Licença
 
